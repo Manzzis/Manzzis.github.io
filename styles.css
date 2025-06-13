@@ -1,0 +1,278 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.color-blanco {
+    color: #fff;
+}
+.color-fondo-blanco {
+    background-color: #fff;
+}
+
+.color-amarillo {
+    color: #EAC926;
+}
+.color-fondo-amarillo {
+  background-color: #EAC926;
+}
+
+.color-azul {
+    color: #03264C;
+}
+.color-fondo-azul {
+    background-color: #03264C;
+}
+.color-fondo-azul-2{
+    background-color: #1259c3;
+}
+.color-fondo-beige{
+    background-color: beige;
+}
+.color-fondo-tierra{
+    background-color: #4e3b31;
+}
+.color-celeste {
+    color: #1259c3;
+}
+.color-fondo-celeste {
+    background-color: #1259c3;
+}
+
+.color-gris-oscuro {
+    color: #666;
+}
+.color-fondo-gris-oscuro {
+    background-color: #666;
+}
+
+.color-gris-claro {
+    color: #ebebeb;
+}
+.color-fondo-gris-claro {
+    background-color: #ebebeb;
+}
+
+.color-verde {
+    color: #075e13;
+}
+.color-fondo-verde {
+    background-color: #135a1c;
+}
+.color-fondo-verde2 {
+    background-color: #134d1b;
+}
+.color-fondo-verde3{
+    background-color: #07270c;
+
+}
+.color-fondo-negro {
+    background-color: black;
+}
+
+.icono {
+    height: 150px;
+    width: 150px;
+
+}
+.contenedor-foto{
+    height: 80%;
+    width: 100%;
+    margin-top: 10px;
+}
+.contenedor-foto img {
+    height: 100%;
+}
+
+.descripcion-corta {
+    height: 20%;
+}
+
+.seccion {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    gap: 16px;
+    text-align: center;
+}
+.seccion-hero{
+    width: 100%;
+    
+}
+.titulo2{
+    width: 100%;
+}
+
+.columna {
+    width: 50%;
+    /* height: auto; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-align-center{
+    text-align: center;
+}
+
+.seccion-articulo {
+    display: flex;    
+    flex-wrap: wrap;
+}
+.articulo-heroe {
+    width: 40%;
+    flex: 0 1 40%;
+    position: relative;    
+    padding: 15px;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #07270c;
+}
+.link{
+    margin-right: 20px;
+}
+.imagenes{
+
+    width: 100%;
+    display: flex;
+}
+.imagenes2{
+
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+.imagen2{
+
+    width: 50%;
+    display: flex;
+    margin-top: 40px;
+}
+
+.seccion-footer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.div-footer{
+    width: 21%;
+    flex: 0 1 21%;
+    position: relative;    
+    padding: 15px;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-right: 20px;
+}
+
+
+
+.articulo {
+    width: 100%;
+    flex: 0 1 100%;
+    position: relative;    
+    padding: 15px;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #07270c;
+}
+.articulo:hover {
+    box-shadow: 0 0 10px rgb(100, 100, 100);
+}
+.ocultar{
+    visibility: hidden;
+}
+
+.articulo-precio {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    div:first-child {
+        width: 30%;
+    }
+    div:last-child {
+        width: 70%;
+    }
+}
+.articulo-heroe-descricion {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    div:first-child {
+        width: 30%;
+    }
+    div:last-child {
+        width: 70%;
+    }
+}
+
+.articulo img {
+    max-width: 100%;
+    max-height: 350px;
+}
+.articulo-heroe img {
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.articulo-div {
+    border-top: 2px solid #ebebeb ;
+}
+.desplegar-info-articulo {
+    text-align: left;
+    /* display: none; */
+}
+.articulo-descripcion {
+    visibility: visible;
+    display: block;
+    text-align: left;
+}
+
+.input-form{
+    margin-top: 10px;
+    border-radius: 5px;
+} 
+.botton-enviar{
+    border-radius: 10px;
+    background-color: yellow;
+}
+.botton-borrar{
+    border-radius: 10px;
+    background-color: #4e3b31;
+    color: #ebebeb;
+}
+
+@media (min-width: 768px){
+    .articulo {
+        width: 45%;
+        flex: 0 1 45%;
+    } 
+}
+@media (min-width: 1024px){
+    main{
+        .articulo {
+        width: 21.5%;
+        flex: 0 1 21.5%;
+        }
+       
+    }
+}
